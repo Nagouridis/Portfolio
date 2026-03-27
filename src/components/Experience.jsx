@@ -54,7 +54,7 @@ export default function Experience() {
               <ul className="flex flex-col gap-2">
                 {exp.bullets.map((bullet, i) => (
                   <li key={i} className="flex gap-3 text-slate-400 text-sm leading-relaxed">
-                    <span className="text-green-400 mt-0.5 flex-shrink-0">▹</span>
+                    <span className="text-green-400 mt-0.5 shrink-0">▹</span>
                     {bullet}
                   </li>
                 ))}

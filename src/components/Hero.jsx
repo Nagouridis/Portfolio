@@ -19,7 +19,7 @@ export default function Hero() {
   return (
     <section id="about" className="relative min-h-screen flex items-center overflow-hidden">
 
-      <div className="absolute inset-0 bg-[linear-gradient(rgba(74,222,128,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(74,222,128,0.04)_1px,transparent_1px)] bg-[size:48px_48px]" />
+      <div className="absolute inset-0 bg-[linear-gradient(rgba(74,222,128,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(74,222,128,0.04)_1px,transparent_1px)] bg-size-[48px_48px]" />
 
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-green-500/5 rounded-full blur-3xl pointer-events-none" />
 
@@ -77,7 +77,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="flex-shrink-0 opacity-0 animate-[fadeUp_0.8s_ease_0.4s_forwards]">
+        <div className="shrink-0 opacity-0 animate-[fadeUp_0.8s_ease_0.4s_forwards]">
           <img
             src={profilePic}
             alt="Nicholas Agouridis"
