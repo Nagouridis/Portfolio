@@ -81,7 +81,7 @@ export default function Hero() {
           <img
             src={profilePic}
             alt="Nicholas Agouridis"
-            className="w-56 h-72 object-cover object-top rounded-2xl"
+            className="w-72 h-96 object-cover object-top rounded-2xl"
           />
         </div>
 
